@@ -12,8 +12,8 @@ let item = '';
 for (let i = 0; i < productList.length; i++) {
   item += `
     <div>
-      ${productList[i].name} - Rp ${productList[i].price}
-      <button>+ Add</button>
+      ${productList[i].name} - Rp.${productList[i].price}
+      <button class="button-add">+ Add</button>
     </div>
   `;
 }
