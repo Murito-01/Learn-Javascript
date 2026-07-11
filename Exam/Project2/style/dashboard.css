@@ -1,0 +1,18 @@
+.body {
+  font-family:Arial;
+}
+
+.header-container {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.title-dashboard {
+  margin-left: 100px;
+}
+
+.total-student {
+  font-size: 20px;
+  margin-right: 100px;
+}
