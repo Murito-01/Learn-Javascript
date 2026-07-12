@@ -45,3 +45,10 @@ th {
 .button-table {
   margin: 5px;
 }
+
+.ringkasan-container {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-right: 1100px;
+}
