@@ -30,3 +30,17 @@ button {
   margin-right: 10px;
   font-size: 20px;
 }
+
+table, 
+td, 
+th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+.button-table {
+  margin: 5px;
+}
