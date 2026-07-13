@@ -7,57 +7,61 @@
     <header>
       <div class="header-container">
         <h1 class="title-dashboard">Dashboard Guru</h1>
-        <p class="total-student">Total siswa: 100</p>
+        <p class="total-student js-total-siswa">Total siswa: 100</p>
       </div>
     </header>
 
     <div>
       <label>Nama Siswa</label>
-      <input type="text">
+      <input type="text" class="js-input-nama">
       <label>Nilai</label>
-      <input type="number" placeholder="0 - 100">
+      <input type="number" class="js-input-nilai" placeholder="0 - 100">
     </div>
 
     <div>
-      <button>Tambah</button>
-      <button>Batal</button>
+      <button class="js-btn-tambah">Tambah</button>
+      <button class="js-btn-batal">Batal</button>
     </div>
 
     <div>
       <table>
-        <tr>
-          <th>No</th>
-          <th>Nama Siswa</th>
-          <th>Nilai</th>
-          <th>Hasil</th>
-          <th>Aksi</th>
-        </tr>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama Siswa</th>
+            <th>Nilai</th>
+            <th>Hasil</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
 
-        <tr>
-          <td>1</td>
-          <th>Ahmad Setiawan</th>
-          <th>80</th>
-          <th>B</th>
-          <th>
-            <button class="button-table">Ubah</button>
-            <button class="button-table">Hapus</button>
-          </th>
-        </tr>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Ahmad Setiawan</td>
+            <td>80</td>
+            <td>B</td>
+            <td>
+              <button class="button-table">Ubah</button>
+              <button class="button-table">Hapus</button>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
 
     <div class="ringkasan-container">
       <div>
         <p>Rata-rata nilai</p>
-        <p>70.5</p>
+        <p class="js-rata-rata">70.5</p>
       </div>
       <div>
         <p>Nilai tertinggi</p>
-        <p>90</p>
+        <p class="js-nilai-tertinggi">90</p>
       </div>
       <div>
         <p>Nilai terendah</p>
-        <p>60</p>
+        <p class="js-nilai-terendah">60</p>
       </div>
     </div>
 
